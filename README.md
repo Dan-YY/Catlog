@@ -2,9 +2,12 @@
 Catlog
 
 
-Alamofire (A network Libray, best part of it is to auto-setup the codable struct) could make things much easier and save an hour of work. But as this is a coding changeling, I assume I should not use 3rd party library, plus it makes it much harder to install for your device testing.
+Alamofire (A network Libray, best part of it is to auto-setup the codable struct) could make things much easier and save an hour of work. But as this is a coding challenge, I assume I should not use 3rd party library, plus it makes it much harder to install for your device testing. The native swift way to do the parser is setup codable manually for each var, this took a while for setup the breeds struct. (Maybe I should just keep the result as string to speedup the progress.)
 
-The page navigation panel (size / paginating) isn't a commonly used view for iOS, and there isn't a native one. I have to make new SizePanelView and PagePanelView from the scratch. The UIPickerView could be a substitute, but it's mostly used in some other cases for better user experience reasons.
+The page navigation panel (size / paginating) isn't a commonly used view for iOS, and there isn't a native view for it. I made new SizePanelView and PagePanelView object from the scratch (base UIView). The UIPickerView could be a substitute, but it's mostly used in some other cases for better user experience reasons.
+
+The UITableView was designed to display a large amount of data while keeping low memory for reusing/recycling the columns. The "load next page" would be called once scrolling to the bottom. But I understand that the requestment of the challenge is to testing something new, so it make sense and I do enjoy this challenge.
+
 
 Known Issues:
 
