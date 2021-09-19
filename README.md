@@ -21,8 +21,12 @@ Known Issues:
 2 - the view was set as universal for all iOS devices in the vertical mode, but the horizontal mode is not set
 
 3 - the server only supports 100 items per API request, listing more is possiable but not being implemented  
+
+
 Thanks for your time for the interview and reading through the code.
 
 
 
-Best,Dan
+Best,
+
+Dan
